@@ -1,0 +1,14 @@
+nav {
+	text-align: right
+}
+
+h2 {
+	text-align: center
+}
+
+img {
+	display: inline-block;
+	width: 20%;
+	height: 20%;
+	margin: 1em;
+}
