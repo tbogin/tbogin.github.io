@@ -3,12 +3,26 @@ body {
 }
 
 nav {
-	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	background-color: black;
+}
+
+nav a {
+	color: white;
+	padding: 20px;
 }
 
 h1, h2, h4 {
 	text-align: center;
 }
+
+ul {
+	text-align: center;
+	line-height: 2em;
+	font-weight: bold;
+}
+
 
 footer {
 	display: inline-block;
