@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Technical Blog 3</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+
+<body>
+  
+<h1>Dev Bootcamp Week 4</h1>
+<h2>Arrays and Hashes in Ruby</h2>
+<h4>March 3rd, 2016</h4>
+  <section>
+    <strong>Arrays</strong>
+<p>Arrays are collections of objects. They're useful for storing large amounts of information.</p>
+<p>Arrays can be created in several ways. The easiest may be</p>
+<p>array = [“Contains”,”as many items”,”as you want”]</p>
+<p>This method of array creation is called the array literal method, as it involves the literal constructor []. In this method, a variable is assigned to your array.</p>
+<p>Arrays can hold strings, numbers, and integers, so long as each item is separated by a comma.
+Another method for array creation is:</p> 
+<p>array = Array.new(number, argument)</p>
+<p>Here, a variable is assigned to a new array (Array.new). This new array takes two arguments. The first, number, can be any number, which will be the number of indexes, or spaces for array objects, within the array. The second argument (argument) can be anything to fill the spaces within the new array.</p> 
+<p>Array_name = Array.new(8, “goldfish”) would create an array with 8 strings of “goldfish”.</p>
+<p>Each object within an array is automatically given an index number based on its position within the array. Indexes begin at 0, which corresponds with the first object inside an array. Array indexes allow you to call upon a specific item within the array.</p>
+<strong>Hashes</strong>
+<p>Hashes are indexes containing pairs of keys and values. Keys in hashes act like index numbers in arrays. They are both used to access their associated value. However, hash keys are unique, and can be any object - not only an integer. </p>    
+<p>A hash may look like: hash = {key: value, key2: value2}, or hash = {key => value, key2 => value2}</p>
+<p>Both hashes and arrays are indexes that can be used to call upon data values. So how are they different? As arrays can contain hashes, but not vice versa, I like to think of arrays as more like folders, and hashes are more like files. Arrays are less descriptive than hashes, indexing their contents with only integers. Hash keys, while fulfilling the same purpose as array indexes, are more descriptive.</p>
+<p>Here is an example of when you could use both arrays and hashes. Imagine you want to organize a menu for a 4-course banquet</p>
+<p>banquet = [{soup: "French mushroom", salad: "garden", amuse_bouche: "caviar"},{second_course_meat: "salmon", second_course_drink: "wine"},{third_course_meat: "chicken", third_course_drink: "wine"},{dessert: "cake", dessert_drink: "wine"}]</p>
+<p>You can access hash values within this array by typing: banquet[n][k], where n stands for an array index number, and k for a hash key. If you want to know the first course meat, you'd enter banquet[1][second_course_meat] --> salmon</p>
+  </section>
+</body>
+</html>
