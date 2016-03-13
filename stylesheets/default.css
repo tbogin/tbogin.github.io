@@ -54,3 +54,13 @@ footer {
 	font-weight: bold;
 	margin-left: 100px;
 }
+
+
+/*Contact Page*/
+
+#IN2, #github2, #facebook, #twitter {
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	margin: 0 auto;
+}
