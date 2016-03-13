@@ -13,6 +13,11 @@ nav a {
 	padding: 20px;
 }
 
+p {
+	text-align: margin 0 auto;
+	width: 80%;
+}
+
 h1, h2, h4 {
 	text-align: center;
 }
