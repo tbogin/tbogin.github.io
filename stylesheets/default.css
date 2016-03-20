@@ -28,6 +28,7 @@ p {
 	text-align: center;
 	font-size: 1.2em;
 	width: 80%;
+	margin-left: 5%;
 }
 
 img {
@@ -63,5 +64,6 @@ footer {
 	width: 150px;
 	height: 150px;
 	display: inline-block;
-	margin: 0 auto;
+	margin-top: 10%;
+	text-align: center;
 }
