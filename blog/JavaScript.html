@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Technical Blog 6</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+
+<body>
+  
+<h1>Dev Bootcamp Week 7</h1>
+<h2>JavaScript vs. Ruby: Loops</h2>
+<h4>March 21th, 2016</h4>
+
+<section>
+  
+<p>Loops are an important part of programming.  They allow you to set a condition, and then repeat an action until that condition is met.  With looping, you can keep your code DRY, saving hours of your life.  But looping differs in Ruby and JavaScript.</p>
+<p>Ruby is lousy with loops.  It has for, while, and until loops.  It has loop loops.  There is the handy .times method, and a whole class of enumerable methods that iterate through your code.</p>  
+<p>Then there is JavaScript, which only contains for loops and while loops.  While limited (very limited; how did Ruby not become the official language of the web?!), for and while loops can do any looping task you need.  You just need to work harder to accomplish certain tasks in JavaScript vs. Ruby.</p>  
+<p>Since for and while loops are the only loops shared between Ruby and JavaScript, let’s compare those:</p>  
+<p>In Ruby, a for loop is usually written</p>
+
+<pre><code>
+for i in 1..10
+  puts i
+end
+</code></pre>
+
+<p>Here, the variable i is defined within the loop.  It will be returned as each number in 1 through 10.</p>
+<p>In JavaScript, the variable within a for loop needs to be defined before the loop, which involves 3 parameters. The first parameter assigns a starting value for the variable (i), the second defines its ending place (11), and the third defines how I will increment, in this case by 1.</p>
+
+<pre><code>
+for (var i = 0; i < 11; i ++) {
+  console.log(i);
+}
+</code></pre>
+
+<p>While loops in Ruby are similar to in JavaScript, but are also more compact (again, why isn’t Ruby the language of the web??).</p>
+
+<pre><code>
+i = 1
+while i <= 10
+  puts i
+end
+</code></pre>
+
+<p>Here, the variable I is assigned 0 as a starting place.  The while loop will return I until it equals 10.</p>
+<p>For JavaScript, we would do:</p>
+
+<pre><code>
+var i = 1
+while(i <= 10) {
+  console.log(i);
+}
+</code></pre>
+
+<p>JavaScript while loops just require a bit more writing to do the same as Ruby.  Tell me again why we’ve been sticking with JavaScript..?</p>
+
+</section>
+
+</body>
+</html>
