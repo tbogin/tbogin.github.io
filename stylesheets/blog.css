@@ -41,3 +41,9 @@ pre {
 footer {
 	display: inline-block;
 }
+
+#project_nav {
+	text-align: center;
+	font-weight: bold;
+	background-color: #33cc33;
+}

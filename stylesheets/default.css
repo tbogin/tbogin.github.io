@@ -10,6 +10,7 @@ nav {
 	display: inline-block;
 	background-color: #00ff80;
 	margin-left: 100px;
+	
 }
 
 nav ul {
@@ -19,6 +20,13 @@ nav ul {
 	line-height: 200%;
 }
 
+
+img {
+	display: block;
+	width: 180px;
+	height: 240px;
+	margin-left: 100px;
+}
 
 h2 {
 	text-align: center;
@@ -31,12 +39,6 @@ p {
 	margin-left: 5%;
 }
 
-img {
-	display: block;
-	width: 180px;
-	height: 240px;
-	margin-left: 100px;
-}
 
 #github {
 	width: 75px; 
@@ -66,4 +68,9 @@ footer {
 	display: inline-block;
 	margin-top: 10%;
 	text-align: center;
+}
+
+/*Birdwatchers Meet*/
+#birds {
+	background-image: url("http://1yhmzd2cduw0xtomj3kk5byj.wpengine.netdna-cdn.com/wp-content/uploads/2015/09/Birdwatching-Adults.jpg");
 }
