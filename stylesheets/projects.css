@@ -1,51 +1,11 @@
-/*Birdwatchers Meet*/
-#birds {
-	background-image: url("../tbogin.github.io/imgs/birdwatchers.jpg");
-	background-repeat: no-repeat
-}
-
-
-body {
-	font-family: PT Sans, Open Sans;
-	font-size: 100%;
-}
-
-nav {
-	height: 240px;
-	width: 70px;
-	float: left;
-	display: inline-block;
-	background-color: #00ff80;
-	margin-left: 100px;
-	
-}
-
-nav ul {
-	font-weight: bold;
-	list-style-type: none;
-	text-indent: -35px;
-	line-height: 200%;
-}
-
-#project_nav {
-	text-align: center;
-	font-weight: bold;
-	background-color: #33cc33;
-}
-
-
-h2 {
+h1 {
 	text-align: center;
 }
 
-p {
-	text-align: center;
-	font-size: 1.2em;
-	width: 80%;
-	margin-left: 5%;
+pre {
+	background-color: grey
 }
 
-footer {
+code {
 	font-weight: bold;
-	margin-left: 100px;
 }
