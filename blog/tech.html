@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Technical Blog 6</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+
+<body>
+  
+<h1>Dev Bootcamp Week 8</h1>
+<h2>Recursive Ruby Methods</h2>
+<h4>March 28th, 2016</h4>
+  
+<section>
+  
+<p>Recursion is the process in which a method calls itself.  A recursive method needs a base case in order to work.</p>
+<p>A base case in recursion refers to a condition that stops the function from calling itself.</p>
+<pre><code>
+  def countdown(n)
+    return if n.zero?
+    puts n
+    countdown(n-1)    
+  end               
+  
+  countdown(5)
+  5
+  4
+  3
+  2
+  1
+
+</code></pre>
+  
+<p>In the above method, the base case is “return if n.zero?”. This means that the recursive method will stop itself, or terminate, when n == 0.</p>
+<p>According to the Bastard’s Book of Ruby, recursive methods usually accomplish the same tasks as more familiar loops.  In fact, the Bastard’s Book recommends loops over recursion, unless you, the programmer, want to test yourself. </p>
+<p>A recursive method from Bastard’s Book of Ruby is below. It compares two rocks at a time from a rock pile until the heaviest rock is found. The base case specifies when there are 2 rocks remaining, check (via ternary statement) whether rock a is greater than rock b.</p>  
+<p>The method rock_judger is called within itself. If the input array (rocks_array) is less than 2 items long, the variable a is assigned to the first item, and b to the potential last item.</p>
+<p>But if the input array is longer than 2 items, the method compares a and b to see which has the largest rock.</p>
+
+<pre><code>
+  def rock_judger(rocks_array)    
+    if rocks_array.length <= 2  # the base case
+      a = rocks_array[0]
+      b = rocks_array[-1]
+    else
+      a = rock_judger(rocks_array.slice!(0,rocks_array.length/2))
+      b = rock_judger(rocks_array)
+    end    
+    
+    return a > b ? a : b
+end
+
+ 
+rocks = 30.times.map{rand(200) + 1}
+puts rocks.join(', ')
+puts "Heaviest rock is: #{rock_judger(rocks)}"
+
+</code></pre>
+
+</section>
+  
+</body>
+
+</html>
