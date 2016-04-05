@@ -11,11 +11,21 @@ header {
 	margin-bottom: 10px;
 }
 
+img {
+	display: block;
+	width: 180px;
+	height: 240px;
+	margin-left: 100px;
+	/*float: left;*/
+	/*clear: right;*/
+}
+
 nav {
 	height: 240px;
 	width: 70px;
 	float: left;
-	/*display: inline-block;*/
+	display: block;
+	/*float: right;*/
 	/*background-color: #00ff80;*/
 	margin-left: 100px;
 	margin-top: 5px;
@@ -39,12 +49,7 @@ a:hover {
 	color: #006699;
 }
 
-img {
-	display: block;
-	width: 180px;
-	height: 240px;
-	margin-left: 100px;
-}
+
 
 h2 {
 	text-align: center;
