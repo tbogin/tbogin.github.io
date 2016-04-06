@@ -67,6 +67,17 @@ footer {
 	text-align: center;
 	font-weight: bold;
 	background-color: #33cc33;
+	/*background-color: #11a79c;*/
+	background-color: #009933;
+	padding-bottom: 2px;
+}
+
+li a {
+	color: #0059b3;
+}
+
+li a:hover {
+	color: #0080ff;
 }
 
 /*Birdwatchers Meet*/
