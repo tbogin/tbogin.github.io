@@ -117,7 +117,9 @@ footer {
 	/*margin-top: 10%;*/
 }
 
-
+footer p {
+	margin: inherit;
+}
 
 
 /*Contact Page*/
