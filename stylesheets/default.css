@@ -98,19 +98,21 @@ p {
 }
 
 
-#email_footer {
-	margin-top: 5%;
-	margin-bottom: 0;
-	margin-left: 0;
-}
+/*#email_footer {*/
+/*	margin-top: 5%;*/
+/*	margin-bottom: 0;*/
+/*	margin-left: auto;*/
+/*}*/
 
-#email_footer p {
-	text-indent: -45px;
-	font-size: 1.2em;
-}
+/*#email_footer p {*/
+/*	text-indent: -45px;*/
+/*	font-size: 1.2em;*/
+/*}*/
 
 footer {
-	margin-left: 100px;
+	margin: inherit;
+	/*margin-left: auto;*/
+	/*margin-left: 100px;*/
 	/*margin-top: 20px;*/
 	/*margin-top: 10%;*/
 }
