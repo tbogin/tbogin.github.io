@@ -1,3 +1,8 @@
+#about {
+  padding-top: 3%;
+  line-height: 2.5em;
+}
+
 .resume-button {
   color: #222;
   background-color: white;
@@ -7,7 +12,26 @@
   font-weight: 700;
 }
 
+.name-and-email li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.divider {
+  color: #fff;
+  font-weight: 300;
+}
+
 .email {
   color: #fff;
   text-transform: lowercase;
+  font-size: 18px;
+  vertical-align: 10%;
 }
+
+.email-me {
+  margin-bottom: 15%;
+  padding-top: 0;
+  font-weight: 600;
+}
+
